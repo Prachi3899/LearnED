@@ -14,7 +14,7 @@ app.use(express.json());
 
 // Connect to MongoDB
 await mongoose
-  .connect('mongodb+srv://nerdeep:nerdeep@cluster0.vrq49ij.mongodb.net/communitySection')
+  .connect('mongodb+srv://learned:learnedflow8@cluster0.pjvij.mongodb.net/communitySection')
   .then(() => console.log('Connected to MongoDB'))
   .catch((err) => console.error('Could not connect to MongoDB:', err));
 
@@ -28,3 +28,5 @@ const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
+
+//mongodb+srv://nerdeep:nerdeep@cluster0.vrq49ij.mongodb.net
